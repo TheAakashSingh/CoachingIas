@@ -1,0 +1,362 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+.tNav {
+    z-index: 3;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    height: 55px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 1px 10px;
+    justify-content: space-between;
+}
+
+.tNav>:nth-child(1) {
+    width: 6rem;
+    border-radius: 100%;
+    height: 3rem;
+}
+
+.tNav>.phone {
+    height: 40px;
+}
+
+.tNav>input {
+    margin-left: 37px;
+    width: 29rem;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 36px;
+    outline: none;
+    text-align: start;
+}
+
+.tNav>ul {
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-right: -10px;
+}
+
+.tNav>ul>li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.tNav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.tNav>.loginBtn {
+    padding: 6px 14px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(114 114 114 / 63%);
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.tNav>.signupBtn {
+    padding: 6px 14px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+    border: none;
+    margin-left: -10px;
+    background-color: rgb(6 189 137)
+}
+
+.verticalLine {
+    margin-left: -28px;
+    width: 1px;
+    background-color: white;
+    height: 30px;
+}
+
+.tNav>span {
+    margin-right: 49px;
+    margin-left: -28px;
+}
+
+.scroller {
+    padding-top: 57px;
+}
+
+.testSec2 {
+    padding: 3rem 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -58px;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(rgb(102, 179, 255), rgb(102, 179, 255));
+}
+
+.testSec2>p {
+    margin-bottom: -8px;
+    font-size: 44px;
+    font-weight: 700;
+    width: 65%;
+    text-align: center;
+}
+
+.testSec2>.testSec2_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.testSec2>.testSec2_1>span {
+    font-size: 30px;
+}
+
+.tsec3 {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tsec3>.usersec {
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.use1>img {
+    width: 50px;
+}
+
+.use1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.use1>:nth-child(2) {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(248, 44, 44);
+}
+
+.use1>:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tsec4 {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tsec4Head {
+    margin-inline-start: -48em;
+}
+
+.tsec4>.tsec4Head>p {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.cardstsec4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 67rem !important;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.cardstsec4>.card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 24px;
+    justify-content: center;
+    border: 1px solid #88888866;
+    border-radius: 5px;
+    box-shadow: 0px 0px 83px -28px #88889D;
+}
+
+.cardstsec4>.card>img {
+    width: 76px;
+}
+
+.cardstsec4>.card>h4 {
+    line-height: 0px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 21px;
+    color: #a94442;
+}
+
+.cardstsec4>.card>p {
+    color: #0e0e0ee6;
+    margin-top: 7px;
+}
+
+.popularExams>.card {
+    padding: 23px 70px;
+}
+
+.popularExams {
+    width: 84rem !important;
+    gap: 10px;
+}
+
+.servicesMain>li>img {
+    width: 40px;
+}
+
+.cardstsec4>.servicesMain {
+    width: -webkit-fill-available;
+    justify-content: flex-start;
+    display: flex;
+    padding: 0px 0px;
+    gap: 10px;
+    border-radius: 13px;
+    border: 1px solid #a3a3a5b5;
+    box-shadow: 0px 0px 30px -15px black;
+}
+
+.servicesMain>li {
+    border-radius: 13px;
+    padding: 10px 10px;
+    color: #272727;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.servicesMain>li:active {
+    background: #ffd7d7;
+}
+
+.servicesMain>li.active {
+    background: #ffd7d7;
+}
+
+#serviceDetails {
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#serviceDetails h2 {
+    color: #272727;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#serviceDetails p {
+    color: #272727;
+    font-size: 14px;
+}
+
+.dropdown {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #a3a3a5b5;
+    box-shadow: 0px 0px 30px -15px black;
+    background-color: #f5f5f5;
+    border-radius: 11px;
+    width: -webkit-fill-available;
+}
+
+.dropdown h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.dropdown p {
+    font-size: 14px;
+}
+
+.sub-dropdown {
+    display: b;
+    /* Hide sub-dropdowns by default */
+}
+
+.dropdown.active .sub-dropdown {
+    display: block;
+    /* Show sub-dropdown when its parent dropdown is active */
+}
+
+.sub-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-dropdown li {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+.sub-dropdown li:last-child {
+    border-bottom: none;
+}
+
+.sub-dropdown li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sub-dropdown li a:hover {
+    color: #000;
+}
+
+
+.tsecHead2 {
+    margin-inline-start: -56em;
+}
+
+.tsecHead3 {
+    margin-inline-start: -26em;
+}
+
+.personalizeCard {
+    display: flex;
+    align-items: flex-start;
+}
+
+.personalizeCard>p {
+
+    width: 35rem;
+    font-size: 19px;
+    color: #1d1d1eb5;
+    font-weight: 400;
+
+}
+
+.personalizeCard>img {
+    width: 30rem;
+}

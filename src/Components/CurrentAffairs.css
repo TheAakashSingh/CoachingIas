@@ -1,0 +1,142 @@
+.CurrentAffairs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+}
+.CurrentAffairs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+}
+.SummaryHindu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+}
+.Blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+}
+.cSection1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #db3374;
+    color: white;
+    padding: 10rem 0rem;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.cSection2{
+    margin-top: -118px;
+    margin-bottom: -60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 9rem;
+    width: 78%;
+    gap: 7rem;
+    border-radius: 7px;
+    box-shadow: 0px -1px 71px -15px #888888;
+    background-color: white;
+}
+.cSide1{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.s1>span>a{
+    text-decoration: none;
+    color: black;
+}
+.s1>:nth-child(1)>a{
+    color: rgb(217, 81, 247) ;
+    font-size: 15px;
+    font-weight: 600;
+}
+.s1>:nth-child(2)>a{
+    font-size: 25px;
+    font-weight: 700;
+    color:#313030;
+}
+.s1>:nth-child(3){
+    font-size: 15px;
+    font-weight: 400;
+    color:#757373;
+}
+.s1{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.cSide2{
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+
+}
+.cSide2>img{
+    width: 15rem;
+}
+.cSide2>input{
+    margin-top: 30px;
+    width: 15rem;
+    padding-left: 8px;
+    color: #b5b2b2;
+    font-size: 16px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #b5b2b2;
+}
+.cSide2>.s2{
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+.cSide2>.s2>.s2data{
+    gap: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.s1>.b>a{
+    color: rgb(36, 36, 240);
+}
+.s1>.c>a{
+    color: rgb(36, 240, 141);
+}
+.s1>.d>a{
+    color: rgb(240, 209, 36);
+}
+.s1>.e>a{
+    color: rgb(240, 148, 36);
+}
+.s1>.f>a{
+    color: rgb(240, 36, 203);
+}
+.s2>p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #484747;
+}
+.s2>.s2data>span>a{
+    text-decoration: none;
+    color: rgb(101, 178, 250);
+    font-weight: 500;
+}
+.Archieves2>select{
+    height: 3rem;
+    padding: 10px 8px;
+    border: 1px solid #969595;
+}
+.Archieves2>select:hover{
+    height: 3rem;
+    border: 1px solid #969595;
+}

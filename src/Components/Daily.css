@@ -1,0 +1,78 @@
+.dailyCurrentAffairs {
+}
+
+.part1 {
+    padding-top: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: #ff0000ba;
+    font-weight: 400;
+}
+
+.subHeading {
+    margin-top: -15px;
+    color: #000000a8;
+}
+
+.part2 {
+   
+}
+
+.blogPostCards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .cards{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cardss {
+    border: 2px solid #d7d6d691;
+    width: calc(50% - 0px);
+    margin: 0px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+
+.cardss h4 {
+    color: #0064ff;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.cardss p {
+    color: #7c7a7a;
+    font-size: 12px;
+}
+
+.numberingSection {
+    display: flex;
+    justify-content: center;
+}
+
+.number {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    border: 1px solid rgb(212, 210, 210);
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #555;
+}
+

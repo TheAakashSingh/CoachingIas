@@ -1,0 +1,23 @@
+.postdata {
+    display: flex;
+    padding-top: 42px;
+    margin: 0px 400px;
+    flex-direction: column;
+}
+
+.postdata>h2 {
+    color: #ff0000ba;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.postdata>span{
+    font-style: italic;
+    color: #8c8c8c;
+}
+.postdata>hr{
+    background-color: #b7b4b457;
+    width: 100%;
+    border: none;
+    height: 1px;
+    margin-bottom: -3px;
+}
